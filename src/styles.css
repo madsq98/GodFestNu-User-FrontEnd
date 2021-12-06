@@ -1,12 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
-/* Carousel Styling Start
+/*
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
+}
+.jumbotron {
+  background-image: url("assets/images/slide1.png");
+  background-size: cover;
+}
+
+.grey {
+  background-color: #495459;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 60vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+#mainMenuList .nav-item {
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 
